@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>bird sanctuary</title>
+	</head>
+
+	<style>
+		body {
+			background-image: url(images/wp2724651-wallpaper-hd-cartoon-nature.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			height: 750px;
+		}
+
+		img {
+			height: 150px;
+		}
+
+		.floatL {
+			float: left;
+		}
+
+		.floatR {
+			float: right;
+		}
+
+    .minimew {
+      position: relative;
+      bottom: 50px;
+      right: 100px;
+    }
+
+    marquee h3 {
+      margin-left: 25px;
+    }
+
+    .hoverIN {
+      visibility: hidden;
+    }
+
+    .mark71:hover .hoverIN {
+      visibility: visible;
+      color: red;
+    }
+
+    .mark71:hover .normal {
+      visibility: hidden;
+    }
+	</style>
+	<body>
+		<marquee behavior="" direction="">
+			<h1 style="text-transform: uppercase; background-color: cadetblue;">
+				Welcome to my bird sanctuary
+			</h1>
+		</marquee>
+			<img src="images/pngfind.com-cardinal-png-1154043.png" alt="" />
+    <marquee behavior="alternate" direction="">
+      <img src="images/pngfind.com-flying-fish-png-4248643.png" alt="">
+    </marquee>
+      <img class="floatR" src="images/pngfind.com-parrot-png-images-2095514.png" alt="">
+    <marquee behavior="" direction="right" scrolldelay="100">
+      <img src="images/pngfind.com-flock-of-birds-png-131709.png" alt="">
+    </marquee>
+    <marquee class="mark71" style="height: 400px; width: 150px; color: blue;" behavior="alternate" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+      <h3 class="normal">
+        hover over me
+      </h3>
+      <h3 class="hoverIN">
+        Awww go back
+      </h3>
+      <img src="images/pngfind.com-cat-png-3116406.png" alt="">
+      </marquee>
+    <img class="floatR minimew" src="images/pngfind.com-cat-png-1234419.png" alt="">
+  </body>
+
+
+</html>
